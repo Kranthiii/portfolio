@@ -8,12 +8,12 @@ import {
     SiJavascript,
     SiTypescript,
     SiTailwindcss,
-    SiFlutter,
-    SiDart,
+    // SiFlutter,
+    // SiDart,
     SiMysql,
     SiNextdotjs,
     SiPrisma,
-    SiNodedotjs,
+    // SiNodedotjs,
     SiChakraui,
 } from "react-icons/si";
 import { BsStripe } from "react-icons/bs";
