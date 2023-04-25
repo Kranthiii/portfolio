@@ -66,24 +66,24 @@ class Nav extends Component {
                         <NavLink to="/">
                             <li className="mouseover">
                                 <i className="fa-solid fa-house-user"></i>
-                                Acceuil
+                                Home
                             </li>
                         </NavLink>
                         <NavLink to="/About">
                             <li className="mouseover">
-                                <i className="fa-solid fa-user"></i>À propos
+                                <i className="fa-solid fa-user"></i>About Me
                             </li>
                         </NavLink>
                         <NavLink to="/Bts-sio">
                             <li className="mouseover">
                                 <i class="fa-solid fa-graduation-cap"></i>
-                                BTS SIO
+                                Education
                             </li>
                         </NavLink>
                         <NavLink to="/Portfolio">
                             <li className="mouseover">
-                                <i className="fa-solid fa-laptop-code"></i>Mon
-                                portfolio
+                                <i className="fa-solid fa-laptop-code"></i>
+                                My Portfolio
                             </li>
                         </NavLink>
                         <NavLink to="/Epreuves">
@@ -94,7 +94,7 @@ class Nav extends Component {
                         <NavLink to="/Veilles">
                             <li className="mouseover">
                                 <i class="fa-solid fa-clock"></i>
-                                Veilles Technos
+                             Technological Watch
                             </li>
                         </NavLink>
                         <NavLink to="/Contact">

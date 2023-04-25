@@ -46,26 +46,26 @@ class Contact extends Component {
                         >
                             <motion.div variants={item}>
                                 <h3>
-                                    Marc Yannick COULIBALY
+                                    Devasoth Bukya Kranthi
                                     <br />
                                     <span>
-                                        Etudiant à l'Institut F2i à Vincennes
+                                        Student in Indian Institute of Information Techonlogy Lucknow
                                     </span>
                                 </h3>
                             </motion.div>
                             <motion.div variants={item}>
-                                <span>Asnières-sur-Seine, île-de-France</span>
+                                <span>Hyderabad, Telangana,India</span>
                                 <a
-                                    href="mailto:yannickcoulibaly220@gmail.com"
+                                    href="mailto:dbkranthi05@gmail.com"
                                     className="mouseover"
                                 >
-                                    yannickcoulibaly220@gmail.com
+                                    dbkranthi05@gmail.com
                                 </a>
                                 <a
-                                    href="tel:+33 6 62 09 89 74"
+                                    href="tel:+91 8143957028"
                                     className="mouseover"
                                 >
-                                    +33 6 62 09 89 74
+                                    +91 8143957028
                                 </a>
 
                                 <Social />

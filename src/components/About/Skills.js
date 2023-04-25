@@ -1,14 +1,18 @@
 import React from "react";
-import { FaReact, FaBootstrap, FaPhp } from "react-icons/fa";
-import { DiHtml5, DiCss3Full, DiJqueryLogo } from "react-icons/di";
+import {  FaBootstrap,  } from "react-icons/fa";
+import { DiHtml5, DiCss3Full } from "react-icons/di";
 import {
     SiJavascript,
-    SiTypescript,
-    SiTailwindcss,
+    // SiTypescript,
+    // SiTailwindcss,
+    SiFlutter,
+    SiDart,
     SiMysql,
     SiNextdotjs,
     SiPrisma,
-    SiChakraui
+    // SiNodedotjs,
+    // SiChakraui,
+    SiNodedotjs
 } from "react-icons/si";
 import { motion } from "framer-motion";
 import { item } from "../Portfolio/ContainerAnimate";
@@ -21,17 +25,20 @@ const Skills = () => {
             style={{ color: "#0edabf", fontSize: "2.2em" }}
         >
             <DiHtml5 />
+            <SiFlutter/>
+            <SiDart/>
+            <SiNodedotjs/>
             <DiCss3Full />
             <SiJavascript size={".9em"} />
-            <SiTypescript size={".9em"} />
-            <DiJqueryLogo />
-            <FaReact />
-            <SiTailwindcss />
+            {/* <SiTypescript size={".9em"} /> */}
+            {/* <DiJqueryLogo /> */}
+            {/* <FaReact /> */}
+            {/* <SiTailwindcss /> */}
             <FaBootstrap />
-            <FaPhp />
+            {/* <FaPhp /> */}
             <SiMysql />
             <SiNextdotjs size={".9em"}/>
-            <SiChakraui size={".9em"}/>
+            {/* <SiChakraui size={".9em"}/> */}
             <SiPrisma size={".9em"}/>
         </motion.div>
     );

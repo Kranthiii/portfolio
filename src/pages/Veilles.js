@@ -25,7 +25,7 @@ class Veilles extends Component {
                                 }),
                             }}
                         >
-                            Veilles Technologiques
+                            Technological Watch
                         </TextAnimate>
                     </h2>
                 </main>

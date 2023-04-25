@@ -5,16 +5,16 @@ import Nav from "../components/Nav";
 import { FaReact, FaPhp, FaBootstrap, FaSass } from "react-icons/fa";
 import { DiJqueryLogo, DiHtml5, DiCss3Full } from "react-icons/di";
 import {
-    SiVite,
-    SiTypescript,
-    SiChakraui,
-    SiMysql,
-    SiTailwindcss,
-    SiChartdotjs,
-    SiLeaflet,
     SiJavascript,
+    SiTypescript,
+    SiTailwindcss,
+    SiFlutter,
+    SiDart,
+    SiMysql,
     SiNextdotjs,
-    SiPrisma
+    SiPrisma,
+    SiNodedotjs,
+    SiChakraui,
 } from "react-icons/si";
 import { BsStripe } from "react-icons/bs";
 import * as ModalsContent from "../components/Portfolio/Modal contents/modalsContent";
@@ -56,7 +56,7 @@ class Portfolio extends Component {
                             <SiTypescript name="Typescript" size={".9em"} />
                             <SiChakraui name="Chakra UI" size={".9em"} />
                             <SiPrisma name="Prisma"/>
-                            <SiChartdotjs name="Chart JS" />
+                            {/* <SiChartdotjs name="Chart JS" /> */}
                             <BsStripe name="Stripe" size={".9em"}/>
                         </Card>
 
@@ -66,7 +66,7 @@ class Portfolio extends Component {
                             link="https://github.com/marcyannick1/Translation-App"
                         >
                             <FaReact name="React JS" />
-                            <SiVite name="Vite JS" size={".9em"} />
+                            {/* <SiVite name="Vite JS" size={".9em"} /> */}
                             <SiTypescript name="Typescript" size={".9em"} />
                             <SiChakraui name="Chakra UI" size={".9em"} />
                         </Card>
@@ -82,7 +82,7 @@ class Portfolio extends Component {
                             <FaPhp name="PHP" />
                             <DiJqueryLogo name="Jquery" />
                             <SiTailwindcss name="TailwindCSS" />
-                            <SiChartdotjs name="Chart JS" />
+                            {/* <SiChartdotjs name="Chart JS" /> */}
                         </Card>
 
                         <Card
@@ -141,7 +141,7 @@ class Portfolio extends Component {
                             <FaReact name="React JS" />
                             <FaSass name="SCSS" />
                             <SiTailwindcss name="TailwindCSS" />
-                            <SiLeaflet name="Leaflet JS" size={".8em"} />
+                            {/* <SiLeaflet name="Leaflet JS" size={".8em"} /> */}
                         </Card>
                     </ContainerAnimate>
                 </main>

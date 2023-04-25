@@ -55,7 +55,7 @@ class Home extends Component {
                                             }}
                                             ownStyle={{ fontSize: ".7em" }}
                                         >
-                                            Bienvenue ! 👋
+                                            Hi ! 👋
                                         </TextAnimate>
                                         <br />
                                         <TextAnimate
@@ -70,9 +70,9 @@ class Home extends Component {
                                                 }),
                                             }}
                                         >
-                                            Je suis Marc Yannick, étudiant en
+                                            I'm  Devasoth Bukya Kranthi, Student at
                                             <span style={{ color: "#0edabf" }}>
-                                                BTS SIO SLAM
+                                                IIIT Lucknow
                                             </span>
                                         </TextAnimate>
                                     </h1>
