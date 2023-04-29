@@ -25,7 +25,7 @@ class Epreuves extends Component {
                                 }),
                             }}
                         >
-                            E4 / E5
+                            Events / Volunteering
                         </TextAnimate>
                     </h2>
                 </main>
